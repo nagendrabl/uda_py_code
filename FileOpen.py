@@ -17,9 +17,6 @@ def checkprofanity(datatocheck):
     else:
        print("Exception when parsing the files") 
                  
-    
-
-
 def read_file():
     openedfile=open(r'C:\Users\nagendra\Desktop\win\movie_quotes.txt',mode='r',encoding="ascii")
     data= openedfile.read()
